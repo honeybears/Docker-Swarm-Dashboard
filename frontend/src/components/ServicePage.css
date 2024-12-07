@@ -1,0 +1,224 @@
+/* 기본 스타일 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* 연한 하늘색 배경 */
+    color: #333; /* 텍스트 색상 */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* 메인 컬러 */
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    color: #007bff; /* 메인 컬러 */
+}
+
+/* 테이블 스타일 */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* 테이블 그림자 */
+}
+
+table thead {
+    background-color: #007bff; /* 메인 컬러 */
+    color: white; /* 서브 컬러 */
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* 하얀색 */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #eaf4ff; /* 연한 하늘색 */
+}
+
+table tbody tr:hover {
+    background-color: #cce7ff; /* 살짝 진한 하늘색 */
+}
+
+td[colspan="3"] {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+/* 서비스 생성 폼 스타일 */
+.service-creation-form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 */
+}
+
+.service-creation-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.service-creation-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.service-creation-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* 메인 컬러 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.service-creation-form button:hover {
+    background-color: #0056b3; /* 버튼 호버 색상 */
+}
+
+/* 엔드포인트 관리 스타일 */
+.endpoint-form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.endpoint-form select,
+.endpoint-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Add + 버튼 스타일 */
+.add-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* 메인 컬러 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3; /* 버튼 호버 색상 */
+}
+
+/* Create Service 버튼 스타일 */
+.create-service-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745; /* 성공 색상 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-service-button:hover {
+    background-color: #218838; /* 호버 색상 */
+}
+/* Add + 버튼 스타일 */
+.add-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff; /* 메인 컬러 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3; /* 버튼 호버 색상 */
+}
+
+/* Create Service 버튼 스타일 */
+.create-service-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745; /* 성공 색상 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-service-button:hover {
+    background-color: #218838; /* 호버 색상 */
+}
+
+/* Close 버튼 스타일 */
+.close-button {
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #dc3545; /* 경고 색상 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+    background-color: #c82333; /* 호버 색상 */
+}
+
+/* Form 버튼 컨테이너 */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.network-selector {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
